@@ -1,0 +1,177 @@
+/* Import RESET styling for grid framework*/
+@import url('css/reset.css');
+/* Import TEXT styling for grid framework*/
+@import url('css/text.css');
+/* Import GRID styling for grid framework*/
+@import url('css/960.css');
+
+
+/*	--------------------------------------------------
+Global Reset - Resets all browser defaults to 0
+-------------------------------------------------- */
+body { color:#444; background:#fff; }
+a, #content-blog .posts p a, .widget p a  { color:#336699; text-decoration:underline; }
+a:hover, #content-blog .posts p a:hover, .widget p a:hover { color:#000; }
+
+p { margin:0 0 8px 0; padding:0; line-height:18px; }
+
+/*	--------------------------------------------------
+ Structure
+ -------------------------------------------------- */
+
+#header { background:#f5f5f5 url(1-default/headerbg.jpg) repeat-x top; border-bottom:1px solid #b4c8d9; }
+#wrapper { }
+
+#sidebar-blog { border-left:1px solid #e5e5e5; }
+#page_head {  color:#336699; border-bottom:1px solid #b4c8d9;  }
+#footer { height:100%; overflow:hidden; border-top:3px double #ccc;    }
+
+
+/*	--------------------------------------------------
+Header
+-------------------------------------------------- 
+
+#nav ul li a { color:#5e7977;  }
+#nav ul li a:hover { color:#5e7977; border-bottom:2px solid #5e7977;  }
+
+#nav ul li.current_page_item a  { color: #3c4a4a;   border-bottom:2px solid #fff;  } */
+
+
+
+/* top navigation drop menu  ---------------------- */
+
+#top_nav li a { color: #5e7977; border-bottom: 0;   }
+#top_nav li a:hover { color:#5e7977; border-bottom:2px solid #5e7977; }
+#top_nav li.current_page_item a, #top_nav li.current-menu-item a { color:#000; }
+
+/* dropdowns/
+--------------------- */
+
+/* 2nd and 3rd level menus */
+#top_nav ul ul { border: solid #b4c8d8; border-width: 1px 1px 0; background: #e2ecf4;}
+
+
+/* 2nd and 3rd level menus */
+#top_nav li li { border-bottom: 1px solid #b4c8d8;    }
+
+/* 2nd and 3rd level menus */
+#top_nav ul ul li:hover, #top_nav ul ul ul li:hover, #top_nav ul ul li.sfhover, #top_nav ul ul ul li.sfhover { background: #cee9ff;  border-top:none;  }
+
+/* 2nd and 3rd level menus */
+#top_nav ul ul li a, #top_nav ul ul ul li a { background: none;  border-bottom:none; color:#444;  }
+#top_nav ul ul li a:hover, #top_nav ul ul ul li a:hover  {  border-bottom:none; color:#3c4a4a; }
+
+#top_nav ul li.current_page_item ul li a, #top_nav ul li.current-menu-item ul li a { border-bottom:none; color:#444; text-transform:capitalize;  }
+#top_nav ul li.current_page_item ul li a:hover { border-bottom:none; color:#3c4a4a;  }
+#top_nav ul li ul li.current_page_item a, #top_nav ul li ul li.current-menu-item a { border-top:none;  color:#000;  }
+
+
+
+
+
+.buynow { border-left:1px solid #85a3bc;  }
+.buynow a { background:url(1-default/b_buynow.png) no-repeat;   }
+.buynow a:hover { background-position:0 -21px; }
+
+
+/*	--------------------------------------------------
+Banner
+-------------------------------------------------- */
+#banner h2 { color:#283433; }
+#banner h3 { color:#417ead; }
+
+#banner p { color:#417ead; } 
+
+#banner { color:#417ead; }
+.productrays { background:url(1-default/productbg.png) no-repeat 210px 80px; }
+
+#banner .buttonbar p {  color:#000;  }
+#banner .buttonbar p a { color:#335a07;  }
+#banner .buttonbar p a:hover { color:#000;  }
+.i_paperpack { background:url(1-default/i_paperpack.gif) no-repeat;  } 
+.i_pdf { background:url(1-default/i_pdf.gif) no-repeat; } 
+
+
+.action_button { background:url(1-default/b_buynow.gif) no-repeat left top;  }
+.action_button a { color:#692608  !important; background:url(1-default/b_buynow_r.gif) no-repeat right top; }
+.action_button a:hover { background-position:right -40px ; color:#000  !important;  }
+.action_button:hover  { color:#000  !important;  background-position:0 -40px; }
+
+
+
+/*	--------------------------------------------------
+content
+-------------------------------------------------- */
+.feature_section {  background:#e2e9ef; border:1px solid #cbdeda; }
+
+.feature_box h3 { color:#000; }
+.feature_box_content p { color:#444; }
+ 
+#content li { background:url(../images/bullet.png) no-repeat 0 5px; }
+
+blockquote { background:url(1-default/quote_blue.png) no-repeat;    } 
+blockquote p { color:#4f4f4f;  }
+blockquote cite { color:#4a4a4a; }
+
+#wrapper blockquote a { color:#336699; font-size:13px; }
+#wrapper blockquote a:hover { color:#000; }
+
+
+/*	--------------------------------------------------
+#content-blog
+-------------------------------------------------- */
+
+#content-blog .posts h2 { color:#336699;   } 
+#content-blog .posts h2 a { color:#336699; text-decoration:none;  }
+#content-blog .posts h2 a:hover { color:#000;  }
+
+#content-blog p.post_bottom { border-top:1px solid #e3e3e3; border-bottom:1px solid #e3e3e3; }
+
+/*	--------------------------------------------------
+content-in 
+-------------------------------------------------- */
+#content-in h2, #content-blog h2 { color:#336699;   } 
+#content-in h6, #content-blog h6 { color:#000;   } 
+
+#content-in li, #content-blog li { background:url(../images/bullet2.png) no-repeat 0 7px; line-height:18px; }
+
+#content-in li a , #content-blog li a  { color:#336699; }
+#content-in li a:hover , #content-blog li a:hover  { color:#333; }
+
+
+/*---------PAGE NAVIGATION - pagination --------- */
+
+.Navi .on { color:#fff; background: #417ead !important }
+.Navi a:hover { color:#fff; background: #78a6ca;  }
+.Navi a { color: #fff; border:1px solid #98bcd8; background:#98bcd8;  }
+	
+/*	--------------------------------------------------
+sidebar 
+-------------------------------------------------- */
+#sidebar h2 {  color:#336699; border-bottom:1px solid #99c1cc; } 
+
+/*	--------------------------------------------------
+#sidebar-blog 
+-------------------------------------------------- */
+
+/*---------widgets ---------  */
+.widget h2, .widget h3{  color:#3d3d3d !important; border-bottom:1px solid #c4c4c4;  }
+#sidebar-blog .widget li{ border-bottom:1px solid #d7d7d7;  }
+
+#sidebar-blog .widget li a { color:#336699; text-decoration:none; }
+#sidebar-blog .widget li a:hover { color:#000; text-decoration:none; }
+
+.b_downloadnow a { background:url(1-default/b_downloadnow.png) no-repeat; color:#d7eeff;  }
+.b_downloadnow a:hover { color:#fff; }
+
+.widget .field { border:1px solid #c4b156; background:#fff;  }
+.widget .replace { color:#444 ; background:url(1-default/b_subscribe.png) no-repeat; }
+.widget .replace:hover { color:#000; }
+
+
+/*	--------------------------------------------------
+footer 
+-------------------------------------------------- */
+#footer { color:#444; }
+#footer a { color:#444; }
+#footer a:hover { color:#000; }

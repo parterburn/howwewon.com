@@ -1,0 +1,47 @@
+22th - June, 2010
+---------------------------------------------
+
+header.php
+header_index.php
+style.css
+
+library/js/menu.js
+
+
+library/includes/featured-footer.php
+library/functions/widgets_functions.php
+
+
+remove files
+--------------------
+library/js/hmenu.js
+library/js/hover.js
+
+
+
+
+22th - May, 2010 (wp 3.0 changes - custom menu navigation - { header  widget },  Theme Compatibility   )
+---------------------------------------------
+
+header.php
+style.css
+skins - 1-default.css
+
+library/functions/widget_functions.php
+library/functions/admin_style.css
+library/functions/admin_functions.php
+
+
+17th-april, 2010 (widget content not stable/stored at wp-admin->widgets)
+-------------------------------------------------
+///if you have any problem with widget, not able to store/add new one, please copy below all code and paste in index.php at very first line and run your site index page, on the next moment you must remove the added code from index.php otherwise your data will lost every time.  NoTE :- this code will remove your some widget data so please take your widget data backup any where so next time it will userful for you. thanks
+//-------------------------------------------------------------------------
+update_option('widget_recent-posts',array());
+update_option('widget_links',array());
+
+
+
+change log on 13th April 2010 (header navigation -- remove blog category related)
+--------------------------------------------------------------
+header_index.php
+header.php

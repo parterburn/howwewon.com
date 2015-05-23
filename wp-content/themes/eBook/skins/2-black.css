@@ -1,0 +1,179 @@
+/* Import RESET styling for grid framework*/
+@import url('css/reset.css');
+/* Import TEXT styling for grid framework*/
+@import url('css/text.css');
+/* Import GRID styling for grid framework*/
+@import url('css/960.css');
+
+
+/*	--------------------------------------------------
+Global Reset - Resets all browser defaults to 0
+-------------------------------------------------- */
+body { color:#444; background:#f5f5f5 url(2-black/bg.png) repeat; }
+a, #content-blog .posts p a, .widget p a  { color:#336699; text-decoration:underline; }
+a:hover, #content-blog .posts p a:hover, .widget p a:hover { color:#000; }
+
+p { margin:0 0 8px 0; padding:0; line-height:18px; }
+
+/*	--------------------------------------------------
+ Structure
+ -------------------------------------------------- */
+
+#header { background:#f5f5f5 url(2-black/headerbg.jpg) repeat-x top; }
+#wrapper { }
+#sidebar-blog {  border-left:1px solid #e5e5e5; }
+#page_head {  border-bottom:1px solid #d0d0d0; color:#000;  }
+#footer { height:100%; overflow:hidden; border-top:3px double #ccc;     }
+
+
+/*	--------------------------------------------------
+Header
+-------------------------------------------------- 
+
+#nav ul li a { color:#ddd;  }
+#nav ul li a:hover { color:#ddd; border-bottom:1px solid #9e9e9e;  }
+
+#nav ul li.current_page_item a  { color: #fff;   border-bottom:1px solid #fff;  }
+#nav ul li a:hover { color: #fff;  } 
+*/
+
+
+/* top navigation drop menu  ---------------------- */
+
+#top_nav li a { color: #ddd;  }
+#top_nav li a:hover { color:#ddd; border-bottom:2px solid #9e9e9e; }
+#top_nav li.current_page_item a, #top_nav li.current-menu-item a { color:#fff; border-bottom:2px solid #fff; }
+
+/* dropdowns/
+--------------------- */
+
+/* 2nd and 3rd level menus */
+#top_nav ul ul { border: solid #C7C7C7; border-width: 1px 1px 0; background: #F9F9F9;}
+
+
+/* 2nd and 3rd level menus */
+#top_nav li li { border-bottom: 1px solid #DBDBDB;    }
+
+/* 2nd and 3rd level menus */
+#top_nav ul ul li:hover, #top_nav ul ul ul li:hover, #top_nav ul ul li.sfhover, #top_nav ul ul ul li.sfhover { background: #e1e1e1;  border-top:none;  }
+
+/* 2nd and 3rd level menus */
+#top_nav ul ul li a, #top_nav ul ul ul li a { background: none;  border-bottom:none; color:#444; }
+#top_nav ul ul li a:hover, #top_nav ul ul ul li a:hover {  border-bottom:none;  color:#000; }
+
+#top_nav ul li.current_page_item ul li a, #top_nav ul li.current-menu-item ul li a { border-bottom:none; color:#444;  }
+#top_nav ul li.current_page_item ul li a:hover{ border-bottom:none; color:#000;  }
+
+#top_nav ul li ul li.current_page_item a, #top_nav ul li ul li.current-menu-item a { border-top:none;  color:#000;  }
+
+
+
+.buynow { border-left:1px solid #2e2e2e;  }
+.buynow a { background:url(2-black/b_buynow.png) no-repeat;   }
+.buynow a:hover { background-position:0 -21px; }
+
+
+/*	--------------------------------------------------
+Banner
+-------------------------------------------------- */
+#banner h2 { color:#fff; }
+#banner h3 { color:#000; }
+
+#banner p { color:#fff; } 
+
+#banner { color:#fff; }
+.productrays { background:url(2-black/productbg.png) no-repeat right top; }
+
+#banner .buttonbar p {  color:#000;  }
+#banner .buttonbar p a { color:#336699;  }
+#banner .buttonbar p a:hover { color:#000;  }
+.i_paperpack { background:url(2-black/i_paperpack.gif) no-repeat;  } 
+.i_pdf { background:url(2-black/i_pdf.gif) no-repeat; } 
+
+
+.action_button { background:url(2-black/b_buynow.gif) no-repeat left top;  }
+.action_button a { color:#000  !important; background:url(2-black/b_buynow_r.gif) no-repeat right top; }
+.action_button a:hover { background-position:right -40px ;  }
+.action_button:hover  { color:#000  !important;  background-position:0 -40px; }
+
+
+
+/*	--------------------------------------------------
+content
+-------------------------------------------------- */
+
+.feature_section {  background:#e4e4e4; border:1px solid #d0d0d0;}
+
+.feature_box h3 { color:#000; }
+.feature_box_content p { color:#444; }
+ 
+#content li { background:url(../images/bullet.png) no-repeat 0 5px; }
+
+blockquote { background:url(2-black/quote_blue.png) no-repeat;    } 
+blockquote p { color:#4f4f4f;  }
+blockquote cite { color:#4a4a4a; }
+
+#wrapper blockquote a { color:#336699; font-size:13px; }
+#wrapper blockquote a:hover { color:#000; }
+
+
+/*	--------------------------------------------------
+#content-blog
+-------------------------------------------------- */
+
+#content-blog .posts h2 { color:#336699;   } 
+#content-blog .posts h2 a { color:#336699; text-decoration:none;  }
+#content-blog .posts h2 a:hover { color:#000;  }
+
+#content-blog p.post_bottom { border-top:1px solid #e3e3e3; border-bottom:1px solid #e3e3e3; }
+
+/*	--------------------------------------------------
+content-in 
+-------------------------------------------------- */
+#content-in h2, #content-blog h2 { color:#336699;   } 
+#content-in h6, #content-blog h6 { color:#000;   } 
+
+#content-in li, #content-blog li { background:url(../images/bullet2.png) no-repeat 0 7px; line-height:18px; }
+
+#content-in li a , #content-blog li a  { color:#336699; }
+#content-in li a:hover , #content-blog li a:hover  { color:#333; }
+
+
+/*---------PAGE NAVIGATION - pagination --------- */
+
+.Navi .on { color:#fff; background: #000 !important }
+.Navi a:hover { color:#fff; background: #666;  }
+.Navi a { color: #fff; border:1px solid #ccc; background:#444;  }
+	
+/*	--------------------------------------------------
+sidebar 
+-------------------------------------------------- */
+#sidebar h2 {  color:#336699; border-bottom:1px solid #99c1cc; } 
+
+/*	--------------------------------------------------
+#sidebar-blog 
+-------------------------------------------------- */
+
+/*---------widgets ---------  */
+
+.widget h2, .widget h3{  color:#3d3d3d !important; border-bottom:1px solid #c4c4c4;  }
+.widget li{ border-bottom:1px solid #d7d7d7;  }
+
+#sidebar-blog .widget li a { color:#336699; text-decoration:none; }
+#sidebar-blog .widget li a:hover { color:#000; text-decoration:none; }
+
+.b_downloadnow a { background:url(2-black/b_downloadnow.png) no-repeat; color:#4d79a6;  }
+.b_downloadnow a:hover { color:#000; }
+
+
+.widget .field { border:1px solid #c4b156; background:#fff;  }
+.widget .replace { color:#444 ; background:url(2-black/b_subscribe.png) no-repeat; }
+.widget .replace:hover { color:#000; }
+
+
+/*	--------------------------------------------------
+footer 
+-------------------------------------------------- */
+#footer { color:#444; }
+#footer a { color:#444; }
+#footer a:hover { color:#000; }
